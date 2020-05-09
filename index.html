@@ -1,48 +1,248 @@
+<!-- 
+    Author: Black
+    Topic: My Blog | UI Design
+    Date: May 1st 2020
+    
+    Many thanks to $oftware Geek and Gordon for being this code testers !😄
+    Also let me know if you want the codes documented to understand better. I'll do it from my next code.
+      
+      -  Icons designed in Affinity designer
+      -  Illustration from undraw.co
+    
+    Thank you all ! I never thought my second code could cross 100+ likes
+ -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Don't open me</title>
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog | UI Design</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="loader fc">
+      <div>
+        <svg x="0px" y="0px" width="24px" height="30px">
+          <rect x="0" y="13" width="4" height="5" fill="#FFBF00">
+            <animate
+              attributeName="height"
+              values="5;21;5"
+              begin="0s"
+              dur="0.6s"
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="y"
+              values="13; 5; 13"
+              begin="0s"
+              dur="0.6s"
+              repeatCount="indefinite"
+            />
+          </rect>
+          <rect x="10" y="13" width="4" height="5" fill="#FFBF00">
+            <animate
+              attributeName="height"
+              values="5;21;5"
+              begin="0.15s"
+              dur="0.6s"
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="y"
+              values="13; 5; 13"
+              begin="0.15s"
+              dur="0.6s"
+              repeatCount="indefinite"
+            />
+          </rect>
+          <rect x="20" y="13" width="4" height="5" fill="#FFBF00">
+            <animate
+              attributeName="height"
+              values="5;21;5"
+              begin="0.3s"
+              dur="0.6s"
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="y"
+              attributeType="XML"
+              values="13; 5; 13"
+              begin="0.3s"
+              dur="0.6s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </svg>
+      </div>
+    </div>
+    <div class="nav-container fc">
+      <div class="ic fc icon-left" onclick="closeNav()">
+        <img
+          src="https://vikram-hegde.github.io/todo-app/images/Icon weather-direction-left.svg"
+        />
+      </div>
+      <div class="profile__img fc">
+        <img
+          src="https://vikram-hegde.github.io/todo-app/images/Group 12.svg"
+        />
+        <div class="heading">Black</div>
+        <p>Love Web & UI Designs</p>
+        <div class="bottom">
+          ⚡️ Crafted by Black ⚡️
+        </div>
+      </div>
+    </div>
+    <div class="overlay" onclick="closeNav()"></div>
     <main>
-        <div id="windows">
-            <div id="loading">Loading...</div>
-        </div>
-        <div id="stop">*** STOP: 0x00000024 (0x001902F8, 0xF1534434, 0xF153414, 0xF8408BAB)
+      <nav id="nav">
+        <ul>
+          <li class="ham-menu ic fc" onclick="openNav()">
+            <img
+              src="https://vikram-hegde.github.io/todo-app/images/Group 1.svg"
+            />
+          </li>
+          <li class="heading">Blog</li>
+          <li class="user-icon ic fc">
+            <a href="https://www.sololearn.com/Profile/18307346" target="_blank"
+              ><img
+                src="https://vikram-hegde.github.io/todo-app/images/Icon feather-user.svg"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="sections">
+        <section class="home">
+          <div class="profile fc">
+            <div class="profile__img">
+              <img
+                src="https://vikram-hegde.github.io/todo-app/images/Group 12.svg"
+              />
+            </div>
+            <div class="profile__content">
+              <div class="profile__name heading">Black</div>
+              <div class="profile__text">Aspiring Web Developer</div>
+            </div>
+          </div>
 
-            A problem has been detected and Windows has been shut down to prevent damage to your computer.
+          <div class="about">
+            <div class="heading">
+              About
+              <div class="illustration fc m20">
+                <img
+                  src="https://vikram-hegde.github.io/todo-app/images/undraw_code_review_l1q9.svg"
+                />
+              </div>
+            </div>
+            <p>
+              I am Black a coding enthusiast 🤓. I like to code in HTML, CSS and
+              JS. I started my Web development journey last year (2019
+              September) and been learning about it, even now and forever 😄
+              <br />
+              I also love UI / UX design which I've been learning recently.
+            </p>
+          </div>
+          <div class="tools">
+            <div class="heading">Tools I Use</div>
+            <div class="grid">
+              <div class="icon-vs icon">
+                <img
+                  src="https://vikram-hegde.github.io/todo-app/images/visual-studio-code-1.svg"
+                />
+              </div>
+              <div class="icon-firefox icon">
+                <img
+                  src="https://vikram-hegde.github.io/todo-app/images/firefox.svg"
+                />
+              </div>
+              <div class="icon-affinity icon">
+                <img
+                  src="https://vikram-hegde.github.io/todo-app/images/affinity.svg"
+                />
+              </div>
+              <div class="icon-xd icon">
+                <img
+                  src="https://vikram-hegde.github.io/todo-app/images/adobe-xd-1.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="heading">Skills</div>
+            <div class="html m20">
+              <span>HTML</span>
+              <div><span></span></div>
+            </div>
+            <div class="css m20">
+              <span>CSS</span>
+              <div><span></span></div>
+            </div>
+            <div class="js m20">
+              <span>JS</span>
+              <div><span></span></div>
+            </div>
+            <div class="c m20">
+              <span>C++</span>
+              <div><span></span></div>
+            </div>
+          </div>
+        </section>
+        <section class="codes">
+          <div class="heading">Codes</div>
+          <a href="https://code.sololearn.com/WzD5na0Ettpa/" target="_blank">
+            <div class="code-section m20">
+              <div class="code-section__type fc">
+                <img
+                  src="https://vikram-hegde.github.io/todo-app/images/Group 12.svg"
+                />
+              </div>
+              <div class="code-section__heading">Hello SoloLearner's</div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="code-section m20">
+              <div class="code-section__type fc">
+                <img
+                  src="https://vikram-hegde.github.io/todo-app/images/Group 12.svg"
+                />
+              </div>
+              <div class="code-section__heading">My Blog | UI Design</div>
+            </div>
+          </a>
 
-            NTFS_FILE_SYSTEM
-
-            If this is the first time you've seen this error screen, restart your computer. If this screen appears
-            again, follow
-            these steps:
-
-            Check to make sure any new hardware or software is properly installed. If this is a new installation, ask
-            your hardware
-            or software manufacturer for any Windows updates you might need.
-
-            If problems continue, disable or remove any newly installed hardware or software. Disable BIOS memory
-            options such as
-            caching or shadowing. If you need to use Safe Mode to remove or disable components, restart your computer,
-            press F8 to
-            select Advanced Startup Options, and then select Safe Mode.
-
-            Technical information:
-
-            *** STOP: 0x00000024 (0x001902F8, 0xF1534434, 0xF153414, 0xF8408BAB)
-            *** Ntfs.sys - Address F7B50024 base at F7B4A000, DateStamp 45d6a04b
-
-            Beginning dump of physical memory
-
-            Physical memory dump complete.
-            Contact your system administrator or technical support group for further assistance.
-        </div>
+          <div class="footer fc">
+            <p>
+              If you liked this code give it a 👍 ! and put down your feedbacks
+              in the comments
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="bottom-nav">
+        <nav>
+          <ul>
+            <li class="home-icon ic fc" onclick="openPage(0)">
+              <a href="#nav"
+                ><img
+                  src="https://vikram-hegde.github.io/todo-app/images/Group 3.svg"
+              /></a>
+            </li>
+            <li class="fc">
+              <img
+                src="https://vikram-hegde.github.io/todo-app/images/Union 2.svg"
+              />
+            </li>
+            <li class="code ic fc" onclick="openPage(1)">
+              <a href="#nav" class="fc"
+                ><img
+                  src="https://vikram-hegde.github.io/todo-app/images/Icon ionic-ios-code.svg"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>
