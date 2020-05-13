@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://nour-ai.github.io/index.html</loc>
+    <lastmod>2020-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://nour-ai.github.io/images/artboard%201hdpi-crop-u126.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nour-ai.github.io/images/gg11111g-crop-u241.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nour-ai.github.io/images/reven-crop-u261.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://nour-ai.github.io/images/vo-crop-u281.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://nour-ai.github.io/untitled-2.html</loc>
+    <lastmod>2020-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
